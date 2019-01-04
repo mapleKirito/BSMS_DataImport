@@ -20,7 +20,7 @@ import jxl.write.WritableWorkbook;
 import test.db.DBConn;
 
 public class ExcelTest3 {
-	
+	//生成sql文件
 	public static void main(String[] args) {
 		String xslFile="I:/临时/20181228/2019年历史馆升级资源/近代重大事件.xls";
 		String sqlPath="I:/临时/20181228/2019年历史馆升级资源/近代重大事件.sql";

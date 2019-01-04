@@ -19,17 +19,17 @@ import jxl.write.WritableWorkbook;
 import test.db.DBConn;
 
 public class ExcelTest2 {
-	
+	//批量改名
 	public static void main(String[] args) {
 		String xslFile="I:/临时/20181228/2019年历史馆升级资源/Book.xls";
-		String dirPath="I:/临时/20181228/2019年历史馆升级资源/ZLS/0/2019/000/000";
+		String dirPath="I:/临时/20181228/2019年历史馆升级资源/ZLS/0/2019/000/001";
 		File f=new File(dirPath);
 		File[] files=f.listFiles();
 		jxl.Workbook rwb = null;
 		try {
 			InputStream is = new FileInputStream(xslFile);
 			rwb = Workbook.getWorkbook(is);
-			Sheet rs = rwb.getSheet(1);
+			Sheet rs = rwb.getSheet(3);
 			int rsColumns = rs.getColumns();
 			int i=0;
 			for(File file : files){
