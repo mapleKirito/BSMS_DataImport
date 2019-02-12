@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.io.InputStream;
 
 public class ThumbnailPic {
+	//小缩略图
 	static boolean flag;
 	public static void fileTest(File file, String pan) throws IOException {
 		File[] files = file.listFiles(); // 获取文件夹下面的所有文件
@@ -31,7 +32,7 @@ public class ThumbnailPic {
 				int w = srcFile.getWidth();
      			int h = srcFile.getHeight();*/
 
-				if(!refilename.equalsIgnoreCase(".xlsx") && !refilename.equalsIgnoreCase(".xls") &&!refilename.equalsIgnoreCase(".db") && !refilename.equalsIgnoreCase(".rar")){
+				if(!refilename.equalsIgnoreCase(".xlsx") && !refilename.equalsIgnoreCase(".xls") &&!refilename.equalsIgnoreCase(".db") && !refilename.equalsIgnoreCase(".rar")&& !refilename.equalsIgnoreCase(".mp4")&& !refilename.equalsIgnoreCase(".mov")){
 					a++;
 					ThumbnailAndPic ps = new ThumbnailAndPic();
 					ps.proce1(pathfile,480, 520, 0.6f,xin);
@@ -60,9 +61,9 @@ public class ThumbnailPic {
 	}
 	
 	public static void main(String[] args) {	
-		File onefile = new File("D:/20141218dgmupdate/inthum");
+		File onefile = new File("I:/临时/20181228/2019年历史馆升级资源/update/upload");
 		try {
-			fileTest(onefile,"D");
+			fileTest(onefile,"I");
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

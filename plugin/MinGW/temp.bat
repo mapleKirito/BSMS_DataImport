@@ -1,0 +1,1 @@
+ffmpeg.exe -i input.mkv -y -ss 00:10:00 -f image2 -vframes 1 -s 380*280 output.jpg

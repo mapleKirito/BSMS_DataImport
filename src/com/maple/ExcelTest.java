@@ -22,7 +22,7 @@ public class ExcelTest {
 	//提取目录原始文件名
 	public static void main(String[] args) {
 		String xslFile="I:/临时/20181228/2019年历史馆升级资源/Book2.xls";
-		String dirPath="I:/临时/20181228/2019年历史馆升级资源/ZLS/0/2019/000/001";
+		String dirPath="I:/临时/20181228/2019年历史馆升级资源/BLS/0/2019/000/000";
 		File f=new File(dirPath);
 		File[] files=f.listFiles();
 		try {

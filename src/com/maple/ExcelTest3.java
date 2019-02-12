@@ -36,13 +36,13 @@ public class ExcelTest3 {
 			int rsColumns = rs.getColumns();
 			int rsRows = rs.getRows();
 			for (int i = 0; i < rsRows; i++) {
-				String sql="insert into res_projection_room(PR_No,PR_Char,PR_Name,PR_Keywords,PR_Type,PR_Upload,PR_FileSwf,PR_Thumbnail,PR_InThum,PR_Category,PR_Category_Name,PR_CateTwLevel,PR_CateTwLevel_Name) ";
+				String sql="insert into res_projection_room(PR_No,PR_Char,PR_Name,PR_Keywords,PR_Type,PR_Upload,PR_FileSwf,PR_Thumbnail,PR_InThum,PR_Category,PR_Category_Name,PR_CateTwLevel,PR_CateTwLevel_Name,PR_IsShare) ";
 				String sqlVal="VALUES(";
 				for(int j=0;j<rsColumns;j++){
 					sqlVal+="'"+rs.getCell(j, i).getContents()+"',";
 				}
 				sqlVal=sqlVal.substring(0, sqlVal.lastIndexOf(","));
-				sqlVal+=");";
+				sqlVal+=",'1');";
 				System.out.println(sql+sqlVal);
 				out.println(sql+sqlVal);
 				out.flush();

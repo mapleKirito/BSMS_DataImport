@@ -21,8 +21,8 @@ import test.db.DBConn;
 public class ExcelTest2 {
 	//批量改名
 	public static void main(String[] args) {
-		String xslFile="I:/临时/20181228/2019年历史馆升级资源/Book.xls";
-		String dirPath="I:/临时/20181228/2019年历史馆升级资源/ZLS/0/2019/000/001";
+		String xslFile="I:/临时/20181228/2019年历史馆升级资源/Book2.xls";
+		String dirPath="I:/临时/20181228/2019年历史馆升级资源/BLS/0/2019/002/000";
 		File f=new File(dirPath);
 		File[] files=f.listFiles();
 		jxl.Workbook rwb = null;
@@ -38,9 +38,10 @@ public class ExcelTest2 {
 				//System.out.println(file.getName().substring(0,file.getName().lastIndexOf(".")));
 				//sheet.addCell(lable);
 				String fileName=file.getName().substring(0,file.getName().lastIndexOf("."));
+				System.out.println(fileName);
 				if(fileName.equals(rs.getCell(0, i).getContents())){
 					//System.out.println(file.getAbsolutePath().substring(0,file.getAbsolutePath().lastIndexOf("\\")+1));
-					file.renameTo(new File(file.getAbsolutePath().substring(0,file.getAbsolutePath().lastIndexOf("\\")+1)+rs.getCell(1, i).getContents()+".mov"));
+					file.renameTo(new File(file.getAbsolutePath().substring(0,file.getAbsolutePath().lastIndexOf("\\")+1)+rs.getCell(1, i).getContents()+".jpg"));
 				}
 				
 				i++;

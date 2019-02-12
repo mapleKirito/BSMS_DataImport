@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.IOException;
 
 public class FirstPicOther {
+	//加水印
 	private static long index = 0;
 	
 	public static void fileTest(File file, String pan,String iconPath,String fg) throws IOException {
@@ -56,34 +57,35 @@ public class FirstPicOther {
 		
 		//中间上
 		
-		File onefile = new File("D:/20141218dgmupdate/图片");
+		/*File onefile = new File("I:/临时/20181228/2019年历史馆升级资源/tmp");
 		try {
-			FirstPicOther.fileTest(onefile,"D","D:/水印图片/chinaedustar.png","one");
+			FirstPicOther.fileTest(onefile,"I","E:/水印图片/育龙标志.png","one");
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
-		System.out.println("中间上完毕"+"/n");
-		/*System.out.println("左下角开始");
+		System.out.println("中间上完毕"+"/n");*/
+		System.out.println("左下角开始");
 		//左下角
-		File twofile = new File("D:/xx/one/Users/Administrator/Desktop/新建文件夹");
+		File twofile = new File("I:/临时/20181228/2019年历史馆升级资源/update/upload");
 		try {
-			SecondtPicOther.fileTest(twofile,"D","D:/水印图片/1 xiao.png","two");
+			SecondtPicOther.fileTest(twofile,"I","E:/水印图片/育龙标志.png","two");
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		System.out.println("左下角完毕"+"/n");*/
-		System.out.println("中间下开始");
+		System.out.println("左下角完毕"+"/n");
+		/*System.out.println("中间下开始");
 		//中加下
-		File threefile = new File("D:/xx/one/20141218dgmupdate/图片");
+		//File threefile = new File("D:/xx/one/20141218dgmupdate/图片");
+		File threefile = new File("I:/临时/20181228/2019年历史馆升级资源/tmp");
 		try {
-			ThreePicOther.fileTest(threefile,"D","D:/水印图片/chinaedustar.png","three");
+			ThreePicOther.fileTest(threefile,"I","E:/水印图片/育龙标志.png","one");
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		System.out.println("中间下完毕");
+		System.out.println("中间下完毕");*/
 	}
 }

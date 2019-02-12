@@ -1,0 +1,33 @@
+install: mingw-get-0.5-mingw32-beta-20120426-1-bin.tar.xz
+ installing mingw-get-0.5-mingw32-beta-20120426-1-bin.tar.xz
+mingw-get.exe: *** ERROR *** package mingw-get-0.5-mingw32-beta-20120426-1-bin.tar.xz is already installed
+install: mingw-get-0.5-mingw32-beta-20120426-1-lic.tar.xz
+ installing mingw-get-0.5-mingw32-beta-20120426-1-lic.tar.xz
+mingw-get.exe: *** ERROR *** package mingw-get-0.5-mingw32-beta-20120426-1-lic.tar.xz is already installed
+install: pkginfo-0.5-mingw32-beta-20120426-1-bin.tar.xz
+ installing pkginfo-0.5-mingw32-beta-20120426-1-bin.tar.xz
+mingw-get.exe: *** ERROR *** package pkginfo-0.5-mingw32-beta-20120426-1-bin.tar.xz is already installed
+install: gcc-4.6.2-1-mingw32-lic.tar.lzma
+ installing gcc-4.6.2-1-mingw32-lic.tar.lzma
+mingw-get.exe: *** ERROR *** package gcc-4.6.2-1-mingw32-lic.tar.lzma is already installed
+install: gcc-core-4.6.2-1-mingw32-bin.tar.lzma
+ installing gcc-core-4.6.2-1-mingw32-bin.tar.lzma
+mingw-get.exe: *** ERROR *** package gcc-core-4.6.2-1-mingw32-bin.tar.lzma is already installed
+install: mingw32-base-2011060500-mingw32-bin.meta
+ installing mingw32-base-2011060500-mingw32-bin.meta
+mingw-get.exe: *** ERROR *** package mingw32-base-2011060500-mingw32-bin.meta is already installed
+install: gcc-4.6.2-1-mingw32-doc.tar.lzma
+ installing gcc-4.6.2-1-mingw32-doc.tar.lzma
+mingw-get.exe: *** ERROR *** package gcc-4.6.2-1-mingw32-doc.tar.lzma is already installed
+install: gcc-4.6.2-1-mingw32-lang.tar.lzma
+ installing gcc-4.6.2-1-mingw32-lang.tar.lzma
+mingw-get.exe: *** ERROR *** package gcc-4.6.2-1-mingw32-lang.tar.lzma is already installed
+install: gcc-c++-4.6.2-1-mingw32-bin.tar.lzma
+ installing gcc-c++-4.6.2-1-mingw32-bin.tar.lzma
+mingw-get.exe: *** ERROR *** package gcc-c++-4.6.2-1-mingw32-bin.tar.lzma is already installed
+install: msys-base-2012040200-msys-bin.meta
+ installing msys-base-2012040200-msys-bin.meta
+mingw-get.exe: *** ERROR *** package msys-base-2012040200-msys-bin.meta is already installed
+install: mingw-developer-toolkit-2011082600-msys-bin.meta
+ installing mingw-developer-toolkit-2011082600-msys-bin.meta
+mingw-get.exe: *** ERROR *** package mingw-developer-toolkit-2011082600-msys-bin.meta is already installed
